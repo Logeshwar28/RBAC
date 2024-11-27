@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "john",
+      "email": "john123@gmail.com",
+      "role": "Admin",
+      "permissions": {
+        "view": true,
+        "edit": true,
+        "delete": true
+      }
+    },
+    {
+      "id": "2",
+      "name": "Rita",
+      "email": "ritacalif12@yahoo.com",
+      "role": "Manager",
+      "permissions": {
+        "view": true,
+        "edit": false,
+        "delete": false
+      }
+    },
+    {
+      "id": "3",
+      "name": "Sagar",
+      "email": "sagu@email.com",
+      "role": "Editor",
+      "permissions": {
+        "view": true,
+        "edit": false,
+        "delete": false
+      }
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "1",
+      "action": "User Creation",
+      "user": "Alice",
+      "details": "Added user Charlie with Viewer role",
+      "timestamp": "2024-11-23T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "action": "Role Update",
+      "user": "Bob",
+      "details": "Updated Editor permissions to include 'delete'",
+      "timestamp": "2024-11-22T14:00:00Z"
+    }
+  ]
+}
